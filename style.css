@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.slice {
+  width: 850px;
+  height: 600px;
+  position: absolute;
+  top: 2%;
+  left: 18%;
+  cursor: pointer;
+}
+
+@keyframes trans {
+  from {transform: translate(-100px, -100px);}
+  to {transform: translate(0, 0);}
+}
+
+.slice > div {
+  display: none;
+  transform: translate(0px, 0px);
+}
+
+.slice img {
+  height: auto;
+  width: 100%;
+  opacity: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.slice div {
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat;
+}
