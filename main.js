@@ -6,11 +6,11 @@ const img = document.querySelectorAll('.slice img')[0].src;
 const delay = 0;
 
 const gunClick = () => {
-   playAudio();
+   	playAudio();
 	setTimeout(() => specialEffects(), 2640);
 	setTimeout(() => {
 		window.location.assign("https://kirito130.github.io/Entry-Animation/");
-	}, 8000);
+	}, 80000);
 }
 
 const playAudio = () => {
