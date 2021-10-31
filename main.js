@@ -9,7 +9,7 @@ const gunClick = () => {
    playAudio();
 	setTimeout(() => specialEffects(), 2640);
 	// setTimeout(() => {
-		window.location.replace("./index.html");
+		window.location.assign("/index");
 	}, 4000);
 }
 
