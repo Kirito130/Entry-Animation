@@ -10,7 +10,7 @@ const gunClick = () => {
 	setTimeout(() => specialEffects(), 2640);
 	setTimeout(() => {
 		window.location.assign("https://kirito130.github.io/Entry-Animation/");
-	}, 5000);
+	}, 6500);
 }
 
 const playAudio = () => {
