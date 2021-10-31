@@ -9,8 +9,8 @@ const gunClick = () => {
    playAudio();
 	setTimeout(() => specialEffects(), 2640);
 	// setTimeout(() => {
-	// 	window.location.replace("https://www.google.com/");
-	// }, 4000);
+		window.location.replace("./index.html");
+	}, 4000);
 }
 
 const playAudio = () => {
@@ -56,13 +56,6 @@ const specialEffects = () => {
 			$(`.div${a}`).css({"animation-name": "trans", "animation-duration": "2s"})
 			a++;
 		}
-
-	// 	if(b > gridX+gridY) {
-	// 		clearInterval(interval2);
-	// 	} else {
-	// 		$(`.div${b}`).fadeOut(800, "linear");
-	// 		b--;
-	// 	}
 	}, delay);
 }
 
