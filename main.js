@@ -8,8 +8,8 @@ const delay = 0;
 const gunClick = () => {
    playAudio();
 	setTimeout(() => specialEffects(), 2640);
-	// setTimeout(() => {
-		window.location.assign("/index");
+	setTimeout(() => {
+		window.location.assign("./index");
 	}, 4000);
 }
 
