@@ -8,9 +8,7 @@ const delay = 0;
 const gunClick = () => {
    	playAudio();
 	setTimeout(() => specialEffects(), 2640);
-	setTimeout(() => {
-		window.location.assign("https://kirito130.github.io/Entry-Animation/");
-	}, 80000);
+	setTimeout(() => pageReload(), 5000);
 }
 
 const playAudio = () => {
@@ -57,6 +55,10 @@ const specialEffects = () => {
 			a++;
 		}
 	}, delay);
+}
+
+const pageReload = () => {
+	window.location.assign("https://kirito130.github.io/Entry-Animation/");
 }
 
 window.onload = () => {
