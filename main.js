@@ -58,7 +58,7 @@ const specialEffects = () => {
 }
 
 const pageReload = () => {
-	window.location.assign("https://kirito130.github.io/Entry-Animation/");
+	window.location.reload();
 }
 
 window.onload = () => {
